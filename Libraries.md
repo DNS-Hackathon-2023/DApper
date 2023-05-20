@@ -36,7 +36,7 @@
   - C-ares: C-ares is a C library for asynchronous DNS requests. It offers a non-blocking API for performing DNS queries, making it suitable for high-performance networking applications.
   - node-dns: node-dns is a DNS library for Node.js. It provides DNS lookup and reverse lookup capabilities and supports features like querying DNS records, resolving hostnames, and handling DNS responses.
   - Go DNS: Go DNS is a DNS library for the Go programming language. It provides functions for DNS resolution and manipulation, supporting features like querying DNS records, performing zone transfers, and dynamic updates.
-  - https://getdnsapi.net
+  - https://getdnsapi.net (and also https://getdnsapi.org/documentation/spec/)
   - rust-dns: rust-dns is a DNS library for the Rust programming language. It provides DNS resolution and manipulation functionalities, including querying DNS records, performing lookups, and building DNS messages.
   - ldns: A C library to simplify DNS programming, supporting DNSSEC.
   - libidn: A library that provides support for internationalized domain names (IDNs).
