@@ -33,8 +33,13 @@
   - dnsjava: dnsjava is a DNS implementation library written in Java. It offers a full DNS resolver, DNS server, and client APIs for building DNS-related applications.
   - System.Net.Dns (C#): This is a .NET framework library for DNS resolution in C#. It provides methods to resolve hostnames to IP addresses and perform reverse DNS lookups.
   - dnspython: dnspython is a popular DNS toolkit for Python, providing a comprehensive set of DNS functionality. It allows you to perform DNS queries, zone transfers, dynamic updates, and more.
-  - adns: adns is an asynchronous DNS resolver library written in C. It is designed to handle high loads and is commonly used in network applications that require efficient DNS resolution.
+  - GNU adns: adns is an asynchronous DNS resolver library written in C. It is designed to handle high loads and is commonly used in network applications that require efficient DNS resolution.
   - C-ares: C-ares is a C library for asynchronous DNS requests. It offers a non-blocking API for performing DNS queries, making it suitable for high-performance networking applications.
   - node-dns: node-dns is a DNS library for Node.js. It provides DNS lookup and reverse lookup capabilities and supports features like querying DNS records, resolving hostnames, and handling DNS responses.
   - Go DNS: Go DNS is a DNS library for the Go programming language. It provides functions for DNS resolution and manipulation, supporting features like querying DNS records, performing zone transfers, and dynamic updates.
   - rust-dns: rust-dns is a DNS library for the Rust programming language. It provides DNS resolution and manipulation functionalities, including querying DNS records, performing lookups, and building DNS messages.
+  - ldns: A C library to simplify DNS programming, supporting DNSSEC.
+  - libidn: A library that provides support for internationalized domain names (IDNs).
+  - libunbound: A validating, recursive, and caching DNS resolver.
+  - lwres: A lightweight resolver library.
+  - Net::DNS: A Perl module that provides a DNS resolver and client interface.
