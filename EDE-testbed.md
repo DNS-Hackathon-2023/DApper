@@ -1,6 +1,6 @@
 # EDE testbed
 
-We have created an [EDE](https://www.rfc-editor.org/rfc/rfc8914) testbed at ede.dn5.dk, try to query via <n>.ede.dn5.dk
+We have created an [EDE](https://www.rfc-editor.org/rfc/rfc8914) testbed at ede.dn5.dk, try to query via `<n>.ede.dn5.dk`
   
 Please see the [IANA Extended DNS Error Codes registry](https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#extended-dns-error-codes) for the full list of defined EDE codes.
   
