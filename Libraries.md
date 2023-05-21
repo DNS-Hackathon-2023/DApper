@@ -5,12 +5,12 @@
 # Very very unorganised list:
 
 * Linux
-  - getaddrinfo(), etc. (from netdb.h, etc.) 
+  - getaddrinfo(), etc. (from netdb.h, etc.)
     * https://man7.org/linux/man-pages/man3/getaddrinfo.3.html
-   
+
 
 * Windows
-  - Win32: https://learn.microsoft.com/en-us/windows/win32/dns/dns-functions 
+  - Win32: https://learn.microsoft.com/en-us/windows/win32/dns/dns-functions
   - Win32 POSIX compliance: https://learn.microsoft.com/en-us/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfo
     * gettaddrinfo(), getnameinfo(), etc.?
 
@@ -42,4 +42,4 @@
   - [libidn](https://www.gnu.org/software/libidn/): A library that provides support for internationalized domain names (IDNs).
   - [libunbound](https://github.com/NLnetLabs/unbound/blob/master/libunbound): A validating, recursive, and caching DNS resolver. (part of unbound)
   - [lwres](https://github.com/pspacek/bind/blob/master/doc/design/lwres): A lightweight resolver library. (part of bind)
-  - [Net::DNS](: A Perl module that provides a DNS resolver and client interface.
+  - Net::DNS: A Perl module that provides a DNS resolver and client interface.
