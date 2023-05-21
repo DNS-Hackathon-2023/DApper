@@ -1,7 +1,5 @@
 # Brainstorming
 
-**NB! Work in progress**
-
 ## Goals
 
 The primary goals of the DApper project are:
@@ -9,6 +7,8 @@ The primary goals of the DApper project are:
 - Develop an EDE (Extended DNS Errors) testbench
 - Draft problem statements
 - Conduct an application gap analysis
+- Consider a possible future Internet draft entitled 
+  "Getaddrinfo() considered harmful"
 
 ## Target Platforms
 
