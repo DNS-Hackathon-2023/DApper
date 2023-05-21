@@ -9,7 +9,7 @@ Any app that would like to query DNS records (of any type) may require the use o
 
 ## Use case 1
 
-An app developer can easily query A records (let's assume also AAAA records). But if they want to query a TXT record (or something else), many basic library implementations will not support it (libc, .Net System.Net.DNS, etc.)
+An app developer can easily query A records (let's assume also AAAA records). But if they want to query a TXT record (or something else), many basic library implementations will not support it (libc, .Net System.Net.DNS, JDK java.net, etc.)
 
 ## Use case 2
 
@@ -24,7 +24,7 @@ When some websites are blocked and/or redirected (e.g. for legal reasons), the E
 When an app receives the result of a DNS lookup, there's no detailed information about the validation/security strategy (DNSSEC, DANE, DOH) used, nor the libraries (most? all?) have the possibility of choosing which strategy to use (one is typically hardcoded). It would be useful that libraries (resolvers, etc.) have a priority list to decide which strategies to use and in which order. It would also be useful that the app would receive detailed information about the method used.
 
 ## Use case 5
-An app uses a DNS library that resolves an address (or DNS record in general). The DNS library generates a high level class object (e.g. System.Net.IPAddress in .Net, etc.). The DNS library would take the TTL and using a callback would automatically lookup when the TTL expired (or other strategy), and if the address (or DNS record changed) it would update the class object accordingly. In that case, it could trigger an object event (such as an AddressOnChange event). If the lookup returned the same address, nothing needed to happen and the app would continue to work uninterrupted.
+An app uses a DNS library that resolves an address (or DNS record in general). The DNS library generates a high level class object (e.g. System.Net.IPAddress in .Net, java.net.InetAddress in JDK, etc.). The DNS library would take the TTL and using a callback would automatically lookup when the TTL expired (or other strategy), and if the address (or DNS record changed) it would update the class object accordingly. In that case, it could trigger an object event (such as an AddressOnChange event). If the lookup returned the same address, nothing needed to happen and the app would continue to work uninterrupted.
 
 
 
