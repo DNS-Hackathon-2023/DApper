@@ -69,7 +69,7 @@ The use described above gives rise to a number of problems.
 - Reachability
 - IPv4/IPv6 dual stack
 - Happy Eyeballs algorithm
-- DNS records other than A/AAAA, eg. HTTPS/SVCB, TXT, SRV, URL, TLSA
+- DNS records other than A/AAAA, eg. HTTPS/SVCB, TXT, SRV, URI, TLSA
 
 ## Resources
 
