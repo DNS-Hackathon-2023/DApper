@@ -10,6 +10,25 @@ DApper (is supposed to) support the following Opeartion Systems:
 - BSD
 - Windows
 
+## Problem Statement
+Current implementations pose potential risks and issues. Up until now, applications have depended on either:
+
+
+1. `getaddrinfo()` 
+   
+    Examples: Python, Ruby, and Node’s DNS libraries. use getaddrinfo, as well as Go sometimes.
+    This option has various shortcomings, making it less than ideal. 
+
+    One shortcome is that it does not allow the user to provide the details users wants or refine users' search. It's a basic and monolithic entry point, with no DNS-specific knobs. For instance, only A and AAAA queries are supported, which is clearly insufficient.
+2. Ad hoc use of DNS resolvers 
+   
+   Examples: dig.
+   
+   The option could be risky without developers' expertise in DNS.
+
+which are both more or less problematic. 
+
+
 ## Components
 
 The key components of DApper include:
@@ -33,19 +52,6 @@ The primary goals of the DApper project are:
 ## Resources
 
 DApper utilizes resources from Windows, BSD, and Linux/GNU libraries.
-
-## Problem Statement
-Current implementations pose potential risks and issues. Up until now, applications have depended on either:
-1. `getaddrinfo()` 
-   
-    This option has various shortcomings, making it less than ideal. 
-    Eg. It does not allow the user to provide the details users wants or refine users' search. It's a basic and monolithic entry point, with no DNS-specific knobs. For instance, only A and AAAA queries are supported, which is clearly insufficient.
-2. Ad hoc use of DNS resolvers 
-   
-   Could be risky without developers' expertise in DNS.
-
-which are both more or less problematic. 
-
 
 ## Application Expectations & Enhancements
 
