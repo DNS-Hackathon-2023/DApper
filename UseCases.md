@@ -26,6 +26,15 @@ When an app receives the result of a DNS lookup, there's no detailed information
 ## Use case 5
 An app uses a DNS library that resolves an address (or DNS record in general). The DNS library generates a high level class object (e.g. System.Net.IPAddress in .Net, java.net.InetAddress in JDK, etc.). The DNS library would take the TTL and using a callback would automatically lookup when the TTL expired (or other strategy), and if the address (or DNS record changed) it would update the class object accordingly. In that case, it could trigger an object event (such as an AddressOnChange event). If the lookup returned the same address, nothing needed to happen and the app would continue to work uninterrupted.
 
+## Use case 6
+
+In an IoT and/or embedded device, knowing why DNS resolution fails is very important. The device programming is usually very resilient to cover all scenarios, so there should be handling of most Extended DNS Errors.
+
+## Use case 7
+
+In an IoT and/or embedded device, validating requests using DNSSEC (etc.) may not always be possible, but the device must be resilient to continue to work regardless. This is very typical in devices implemented in the field where human intervention must be minimal and connectivity needs to prevail.
+
+
 
 
 
