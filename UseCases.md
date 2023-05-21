@@ -34,6 +34,8 @@ In an IoT and/or embedded device, knowing why DNS resolution fails is very impor
 
 In an IoT and/or embedded device, validating requests using DNSSEC (etc.) may not always be possible, but the device must be resilient to continue to work regardless. This is very typical in devices implemented in the field where human intervention must be minimal and connectivity needs to prevail.
 
+## Use case 8
+In a highly secure environment, connectivity needs to be guaranteed with the proper (and full) validation/security. Anything less than that should be reported to the application, so that the user would know of such issues, and depending on the exact error/warning, the application should handle (or at least report to the use) with different context and possibly different solutions.
 
 
 
