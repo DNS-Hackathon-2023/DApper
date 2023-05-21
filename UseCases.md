@@ -9,7 +9,7 @@ Any app that would like to query DNS records (of any type) may require the use o
 
 ## Use case 1
 
-An app developer can easily query A records (let's assume also AAAA records). But if they want to query a TXT record (or something else), most basic library implementations will not support it.
+An app developer can easily query A records (let's assume also AAAA records). But if they want to query a TXT record (or something else), many basic library implementations will not support it (libc, .Net System.Net.DNS, etc.)
 
 ## Use case 2
 
