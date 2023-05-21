@@ -33,7 +33,7 @@
   - System.Net.Dns (C#): This is a .NET framework library for DNS resolution in C#. It provides methods to resolve hostnames to IP addresses and perform reverse DNS lookups.
   - [dnspython](https://github.com/rthalley/dnspython): dnspython is a popular DNS toolkit for Python, providing a comprehensive set of DNS functionality. It allows you to perform DNS queries, zone transfers, dynamic updates, and more.
   - [aiodns](https://github.com/saghul/aiodns) -  Simple DNS resolver for Python asyncio
-  - [
+  - [python3-dnslib](https://github.com/paulc/dnslib) - Serialization/Deserialization for DNS in Python
   - [GNU adns](https://www.chiark.greenend.org.uk/ucgi/~ianmdlvl/git/adns.git/): adns is an asynchronous DNS resolver library written in C. It is designed to handle high loads and is commonly used in network applications that require efficient DNS resolution.
   - [C-ares](https://c-ares.org/): C-ares is a C library for asynchronous DNS requests. It offers a non-blocking API for performing DNS queries, making it suitable for high-performance networking applications. (1.6k stars)
   - [node-dns](https://nodejs.org/api/dns.html): node-dns is a DNS library for Node.js. It provides DNS lookup and reverse lookup capabilities and supports features like querying DNS records, resolving hostnames, and handling DNS responses.
