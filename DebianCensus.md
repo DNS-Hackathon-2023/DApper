@@ -9,6 +9,5 @@ Looking at Debian:
 * there are no users of libgetdns besides python3-getdns (which has no users)
 * ~130 use dnspython
 * ~10 use python-dns
-* python3-dnslib is used by just certbot-dns
 * ~5 use python3-aiodns
 * ~15 use ldns
