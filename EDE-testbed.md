@@ -2,7 +2,7 @@
 
 We have created an [EDE](https://www.rfc-editor.org/rfc/rfc8914) testbed at ede.dn5.dk, try to query via <n>.ede.dn5.dk
   
-Please see [RFC 8914](https://www.rfc-editor.org/rfc/rfc8914) for the full list of defined EDE codes.
+Please see the [IANA Extended DNS Error Codes registry](https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#extended-dns-error-codes) for the full list of defined EDE codes.
   
 ```text
 $ dig 16.ede.dn5.dk @ede.dn5.dk
